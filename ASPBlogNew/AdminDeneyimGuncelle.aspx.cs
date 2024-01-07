@@ -21,7 +21,7 @@ public partial class AdminDeneyimGuncelle : System.Web.UI.Page
             txtId.Text = id.ToString();
             txtBaslik.Text = dt.GetDataById(id)[0].BASLIK;
             txtAltBaslik.Text = dt.GetDataById(id)[0].ALTBASLIK;
-            txtAciklama.Text = dt.GetDataById(id)[0].ACIKLAMA;
+            //txtAciklama.Text = dt.GetDataById(id)[0].ACIKLAMA;
             //txtTarih.Text = dt.GetDataById(id)[0].TARIH;
         }
         
